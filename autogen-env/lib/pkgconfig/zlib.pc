@@ -1,0 +1,13 @@
+prefix=/Users/yaminichitikela/Documents/Projects/autoGen/autogen-env
+exec_prefix=/Users/yaminichitikela/Documents/Projects/autoGen/autogen-env
+libdir=/Users/yaminichitikela/Documents/Projects/autoGen/autogen-env/lib
+sharedlibdir=/Users/yaminichitikela/Documents/Projects/autoGen/autogen-env/lib
+includedir=/Users/yaminichitikela/Documents/Projects/autoGen/autogen-env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

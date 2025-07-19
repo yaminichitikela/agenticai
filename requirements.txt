@@ -1,0 +1,10 @@
+autogen-agentchat
+autogen-ext[openai]
+dotenv
+autogen-core
+pydantic
+langchain
+langchain-openai
+langchain-groq
+langchain-core
+langchain-community
